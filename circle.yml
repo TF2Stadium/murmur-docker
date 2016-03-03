@@ -7,5 +7,5 @@ deployment:
     branch: master
     commands:
       - docker login -e $DOCKER_EMAIL -u $DOCKER_USERNAME -p $DOCKER_PASSWORD
-      - docker build -t vibhavp/murmur .
-      - docker push vibhavp/murmur
+      - docker build -t tf2stadium/murmur .
+      - docker push tf2stadium/murmur
