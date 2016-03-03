@@ -1,7 +1,9 @@
 machine:
   services:
     - docker
-
+test:
+  override:
+    - echo "ayy lmao"
 deployment:
   master:
     branch: master
